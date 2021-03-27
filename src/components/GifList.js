@@ -1,12 +1,10 @@
 import React from 'react'
 
-const GifList = props => {
-  console.log(props);
-  return (
-    <div>
-        {props.gifs.map(gif => <img key={gif.url} src={gif.url} alt="gif"/>)}
-    </div>
-  )
-}
-
-export default GifList
+export default class GifList extends Component {
+  render() {
+    return (
+      <div>
+        <img src={this.props.gif} alt="d"/>
+      </div>
+    )
+  } 
