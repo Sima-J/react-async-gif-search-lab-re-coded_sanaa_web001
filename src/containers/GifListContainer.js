@@ -1,4 +1,4 @@
-mport GifList from '../components/GifList'
+import GifList from '../components/GifList'
 import GifSearch from '../components/GifSearch'
 export default class GifListContainer extends Component {
   constructor(props){
